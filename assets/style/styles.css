@@ -1,0 +1,161 @@
+.loginImage {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.mainheading {
+  margin-top: 5%;
+  text-align: center;
+  color: #7745f9;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.secondView {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondView a {
+  text-decoration: none;
+}
+
+.loginbutton:hover {
+  background-color: transparent;
+  border: 1px solid #7745f9;
+  color: #7745f9;
+}
+
+.loginbutton {
+  margin: 5% 0%;
+  background-color: #7745f9;
+  border: none;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  color: #7745f9;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.addButton {
+  background-color: #7745f9;
+  border: none;
+}
+
+.addButton:hover {
+  background-color: #7745f9;
+  border: none;
+}
+.addDetailsView {
+  padding: 3%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin: 3% 0%;
+  width: 60%;
+}
+.flexC {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 900px) {
+  .secondView {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .secondView {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mainheading {
+    margin-top: 10%;
+    text-align: center;
+    color: #7745f9;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .loginImage {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  .secondView {
+    width: 80%;
+  }
+
+  .addDetailsView {
+    padding: 5%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: 5%;
+    width: 100%;
+  }
+  table {
+    margin-top: 10%;
+  }
+
+  table thead tr th {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  table tbody tr td {
+    font-size: 12px;
+  }
+  table tbody tr th {
+    font-size: 12px;
+  }
+
+  .addDetailsView label {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .addDetailsView input {
+    font-size: 12px;
+  }
+
+  .addButton {
+    background-color: #7745f9;
+    border: none;
+    font-size: 12px;
+    margin: 3% 0%;
+  }
+  .flexC {
+    display: flex;
+    flex-direction: column;
+  }
+}
